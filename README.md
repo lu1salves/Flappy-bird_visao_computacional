@@ -15,3 +15,5 @@ sudo npm run
 sudo yarn start
 5. Clique em jogar e divirta-se!
 OBS: na primeira tentativa talvez o jogo trave. Se isso acontecer, você só precisa clicar em jogar para reiniciar o jogo!
+
+<img src="/imagem_readme/image.png">
