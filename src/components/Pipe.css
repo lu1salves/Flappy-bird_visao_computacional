@@ -1,0 +1,31 @@
+.piping {
+	position: absolute;
+	top: 0;
+	right: -52px; 
+	width: 52px;  
+	height: 100%;  
+}
+
+.piping-upper {
+	position: absolute;
+	top: -270px;  
+	right: 0;  
+	width: 52px;
+	height: 270px;
+	background-image: url(../images/pipeUpper.png);
+  background-repeat: repeat;
+  background-size: cover;
+	will-change: transform;
+}
+
+.piping-below {
+	position: absolute;
+	bottom: -130px; 
+	right: 0;
+	width: 52px;
+	height: 242px;
+	background-image: url(../images/pipeLower.png);
+  background-repeat: repeat;
+  background-size: cover;
+	will-change: transform;
+}
