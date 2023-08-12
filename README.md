@@ -1,51 +1,17 @@
-# **Post Flappy Bird Game**
+# **Flappy-Bird com visão computacional**
 
-## **Desciption**
-It's a `React` + `Tensorflow.js` frontend web-game project. `Tesnsorflow.js` is a powerful and convenient deep learning libary. I use Movenet in [tfjs-models](https://github.com/tensorflow/tfjs-models) to do single human body **pose detection**.
-MoveNet is an ultra fast and accurate model that detects 17 keypoints of a body.  
+Versão do jogo "Flappy-Bird" usando visão computacional.
+O objetivo se encontra em simular o bater de asas do pássaro através do jogador.
+O projeto usou a biblioteca tensorflow e o modelo MoveNet (identificação do corpo humano).
 
-![pose detection](./demo/pose-detect.png)
-
-<br/>
-
-I use the shoulder key points and wrist key points to controll the flappy bird. Try to mimic bird flying and flap you arm, you will see the bird flying up ! 
-Furthermore, this game will use you web-cam to detect your pose. But don't worry, even though you don't have web-cam you still can use mouse to play the game. Please follow the instruction and enjoy the game !
-![demo](./demo/pose-flappy-bird-demo.gif) 
-
-## **[Demo](https://post-flappy-bird.netlify.app/)**
-demo link: https://post-flappy-bird.netlify.app/
-
-Please follow the game instruction and enjoy the game!
-
-
-## **Install**
-1. clone this repo
-2. Install frontend package  
-   yarn:
-   ``` shell
-   cd post-flappy-bird 
-   yarn
-   ```
-
-   npm:
-   ``` shell
-   cd post-flappy-bird 
-   npm install
-   ```
-
-## **Run in localhost**
-yarn: 
-```shell
-yarn start
-```
-
-npm:
-```shell
-npm start
-```
-
-## **Reference**
-- [tfjs-models: Pose Detection](https://github.com/tensorflow/tfjs-models/tree/master/pose-detection)
-- [flappy-bird](https://github.com/Lucifier129/flappy-bird)
-- [Flappy Pose](https://github.com/MIDIBlocks/handsfree-flappy-bird)
-
+## **Processo de instalação**
+1. Clone o repositório   
+2. Tenha certeza de que seu computador tenha instalador o npm/yarn (gerenciadores de pacotes do javascript)
+3. Faça o build do projeto com:
+sudo npm build
+sudo yran build
+4. Execute o projeto com:
+sudo npm run
+sudo yarn start
+5. Clique em jogar e divirta-se!
+OBS: na primeira tentativa talvez o jogo trave. Se isso acontecer, você só precisa clicar em jogar para reiniciar o jogo!
